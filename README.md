@@ -18,7 +18,19 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Lead capture
+## GitHub
+
+Repository: `heath-gtm/lead-magnet`
+
+```bash
+# After renaming the repo on GitHub (Settings → Repository name → lead-magnet):
+git remote set-url origin https://github.com/heath-gtm/lead-magnet.git
+git push -u origin main
+```
+
+If the remote is still `Lead-Magnet`, rename it on GitHub first, then run the commands above.
+
+## lead capture
 
 Submissions POST to `/api/leads`. By default, leads are logged to the server console. Edit `app/api/leads/route.ts` to send to Resend, HubSpot, Airtable, or your database.
 
@@ -36,11 +48,11 @@ Or connect this GitHub repo in the [Vercel dashboard](https://vercel.com/new) fo
 
 ```
 app/
-  api/leads/route.ts   # Lead submission endpoint
-  page.tsx             # Landing page
-  layout.tsx           # Root layout + metadata
+  api/leads/route.ts   # lead submission endpoint
+  page.tsx             # landing page
+  layout.tsx           # root layout + metadata
 components/
-  LeadForm.tsx         # Opt-in form
+  LeadForm.tsx         # opt-in form
   Benefits.tsx         # Value props section
 ```
 
