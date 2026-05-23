@@ -21,7 +21,7 @@ export default function Home() {
 
       <header className="relative mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
         <span className="text-lg font-bold tracking-tight text-slate-900 dark:text-white">
-          Lead Magnet
+          lead magnet
         </span>
         <a
           href="#download"
@@ -92,7 +92,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-slate-200/80 py-8 text-center text-sm text-slate-500 dark:border-slate-800">
-        © {new Date().getFullYear()} Lead Magnet. Built for Vercel.
+        © {new Date().getFullYear()} lead magnet. Built for Vercel.
       </footer>
     </div>
   );

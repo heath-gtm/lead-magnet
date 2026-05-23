@@ -1,4 +1,4 @@
-# Lead Magnet
+# lead-magnet
 
 A focused Next.js landing page for capturing B2B leads — hero, benefits, email form, and API route ready to connect to your CRM or email provider.
 

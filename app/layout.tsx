@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lead Magnet — Free playbook for predictable pipeline",
+  title: "lead magnet — free playbook for predictable pipeline",
   description:
     "Download the 7-step playbook B2B teams use to turn cold traffic into qualified meetings without burning ad spend.",
   openGraph: {
-    title: "Lead Magnet — Free pipeline playbook",
+    title: "lead magnet — free pipeline playbook",
     description:
       "A practical framework for capturing and converting leads from one focused landing page.",
     type: "website",
